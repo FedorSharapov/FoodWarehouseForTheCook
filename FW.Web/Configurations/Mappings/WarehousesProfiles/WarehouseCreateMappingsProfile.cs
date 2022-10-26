@@ -1,0 +1,16 @@
+﻿using AutoMapper;
+using FW.BusinessLogic.Contracts.Warehouses;
+using FW.Web.ViewModels.Warehouses;
+
+namespace FW.Web.Configurations.Mappings.WarehousesProfiles
+{
+    public class WarehouseCreateMappingsProfile : Profile
+    {
+        public WarehouseCreateMappingsProfile()
+        {
+            CreateMap<WarehouseCreateDto, WarehouseVM>();
+            CreateMap<WarehouseVM, WarehouseCreateDto>()
+                .ForMember(p => p.UserId, map => map.Ignore());
+        }
+    }
+}
