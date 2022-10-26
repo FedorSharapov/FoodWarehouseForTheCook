@@ -1,4 +1,4 @@
-# Food_Warehouse_For_The_Cook
+# Food warehouse for the cook
 В выпускной работе применены полученные знания на курсе C# Developer. Professional:
 - микросервисная архитектура;
 - чистая архитектура;
@@ -12,7 +12,7 @@
 - Serilog;
 
 
-# Food_Warehouse_For_The_Cook
+# Описание
 Приложение представляет собой управление складом продуктов. 
 На склад "Warehouse" добавляем продукты "Products". Создаем блюда "Dishes", "Recipes". При приготовлении блюда "Dishes" со склада автоматически списываются продукты "Products" по рецепту "Recipes" в соответствии со справочником "Ingredients". Изменения продуктов на складе фиксируются в "ChangesProducts".
 
